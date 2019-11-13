@@ -1,4 +1,4 @@
-language: generic
+language: generic #to remove rake not found error
 sudo: required #sudo means admin permission
 services:
   - docker
