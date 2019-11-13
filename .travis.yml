@@ -2,7 +2,7 @@ language: generic #to remove rake not found error
 sudo: required #sudo means admin permission
 services:
   - docker
-  - ruby
+  - rake
 
 before-install:
   - docker build -t suhaasnandeesh/docker-react -f Dockerfile.dev .
